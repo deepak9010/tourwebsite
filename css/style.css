@@ -1,0 +1,117 @@
+
+    
+   body{
+    font-family: 'Baloo 2', cursive;
+       color: white;
+       margin: 0px;
+       padding:0px;
+       background: url("../img/parisss.jpg");
+    
+   }
+   .left{
+       position: absolute;
+       left: 34px;
+       top: 20px;
+       display: inline-block;
+       /* border: 2px solid white; */
+   }
+   .left img{
+       width: 164px;
+   }
+   .left div{
+    line-height: 20px;
+    font-size: 28px;
+       text-align: center;
+   }
+   .mid{
+       display: block;
+       width: 40%;
+       margin: 20px auto;
+    /* border: 2px solid white; */
+   }
+   .right{
+       position: absolute;
+       right: 34px;
+       top: 33px;
+       display: inline-block;
+    /* border: 2px solid white; */
+   }
+   .btn{
+    font-family: 'Baloo 2', cursive;
+       margin: 0px 9px;
+       padding: 2px 13px;
+       border: 2px solid grey;
+       border-radius: 8px;
+       font-size: 18px;
+       cursor: pointer;
+   }
+   .btn:hover{
+       background: rgb(201, 114, 114);
+   }
+   .navbar{
+       display: inline-block;
+   }
+   .navbar li{
+       display: inline-block;
+       font-size: 18px;
+   }
+   .navbar li a{
+       color: white;
+       text-decoration: none;
+       padding: 34px 23px;
+   }
+   .navbar li a:hover, .navbar li a.active{
+       text-decoration: underline;
+       color: rgb(153, 120, 120);
+       
+   }
+   .container{
+        border: 2px solid greenyellow; 
+       margin: 104px 80px;
+       padding: 65px;
+       width: 30%;
+       border-radius: 28px;
+   }
+   .form-grp input{
+       text-align: center;
+       display: block;
+       width: 400px;
+       padding: 0px;
+       border: 0px solid black;
+       margin: 8px auto;
+       font-size: 20px;
+       border-radius: 5px;
+       font-family:'Baloo 2', cursive;
+   }
+   .container h1{
+       
+       text-align: center;
+       font-style: italic;
+       font-size: 41px;
+   }
+   .container button{
+         display: block;
+         width: 184px;
+         margin: auto;
+         background:black;
+         color: white;
+         font-size: 22px;
+   }
+   .container2{
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    width: 266px;
+    border: 2px solid #e39e9e;
+    border-radius: 17px;
+    text-align: center;
+    color: white;
+    background: black;
+    position: absolute;
+    bottom: 24px;
+    right: 445px;
+    font-size: 23px;
+    padding: 20px;
+
+       
+   }
+
